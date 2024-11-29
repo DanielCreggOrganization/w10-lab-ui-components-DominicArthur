@@ -1,0 +1,37 @@
+ion-item {
+    margin-bottom: 10px; /* Add spacing between items */
+  }
+  
+  ion-avatar img, ion-thumbnail img {
+    border-radius: 8px; /* Add rounded corners for thumbnails */
+  }
+  
+  ion-label h2 {
+    font-weight: bold;
+  }
+  
+  ion-label p {
+    color: gray;
+  }
+  
+  ion-item-sliding ion-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  ion-item-sliding ion-item:hover {
+    background-color: #f8f9fa; /* Add a hover effect to the sliding item */
+  }
+
+  /* Highlight selected items */
+    .selected-item {
+    background-color: #e0f7fa; /* Light blue background */
+    border-left: 4px solid #007bff; /* Blue highlight on the left */
+  }
+
+  /* Style for disabled items */
+    ion-item[disabled] {
+    opacity: 0.5; /* Reduce visibility */
+    pointer-events: none; /* Prevent interactions */
+    color: #999; /* Optional: Change text color for disabled state */
+  }
+  

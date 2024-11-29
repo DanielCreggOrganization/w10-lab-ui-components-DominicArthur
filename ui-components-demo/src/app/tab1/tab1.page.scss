@@ -1,0 +1,35 @@
+ion-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    align-items: center; /* Center content vertically */
+    padding: 10px;
+
+    ion-button {
+        transition: background-color 0.3s ease, color 0.3s ease;
+      
+        &:hover {
+          background-color: #000000; /* Change to your desired hover color */
+          color: #fff; /* Ensure text is readable */
+        }
+      }
+      
+    ion-row {
+        width: 100%;
+      }
+
+    ion-col {
+      padding: 10px; /* Add spacing between image and text */
+    }
+  
+    img {
+      border-radius: 8px; /* Add rounded corners to the image */
+    }
+
+    &:hover {
+        transform: scale(1.05); /* Slight zoom effect on hover */
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add shadow for a floating effect */
+        background-color: #Ffd700; /* Change the background color on hover */
+      }
+  }
+  
